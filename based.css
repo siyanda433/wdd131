@@ -71,6 +71,11 @@ body {
     background: rgb(26, 23, 209);
     padding: 10px;
   }
+  .aboutme img a{
+    width: 100%;
+    height: auto;
+    float: right;
+  }
   
   .Webdevresources {
     grid-column: 2;
@@ -81,10 +86,10 @@ body {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Divide the main section into two equal columns */
-    gap: 10px; /* Add a gap between the two sections */
+    gap: 50px; /* Add a gap between the two sections */
+    
   }
   
-
   footer {
     background: rgb(26, 23, 209);
     padding: 2rem;

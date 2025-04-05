@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  header {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    background-color: #8ccbef;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row; /* changed to row for large screen layout */
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1200px; /* limit width for better readability */
+    width: 100%;
+    gap: 40px; /* space between items in row */
+  }
+  
+  /* Optional: make it responsive */
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF; /* Primary Background Color */
+    color: #000000; /* Body Text Color */
+    font-family: 'Domine', serif;
+}
+
+body:hover {
+    background-color: #0D2149; /* Body Hover Color */
+}
+
+/* Header and Footer Styles */
+
+header, footer {
+    background-color: #1D4D73; /* Header/Footer Background */
+    color: #FFFFFF; /* Header/Nav/Footer Text Color */
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Styles */
+
+nav {
+    background-color: #333333; /* Nav Background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadows */
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #FFFFFF; /* Header/Nav/Footer Text Color */
+    text-decoration: none;
+}
+
+/* Section Title Styles */
+
+.section-title {
+    color: #1D4D73; /* Section Title Text Color */
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Ballet', cursive;
+}
+
+/* Article Title Styles */
+
+.article-title {
+    color: #1D4D73; /* Section Title Text Color */
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Ballet', cursive;
+}
+
+/* Article Image Area Styles */
+
+.article-image-area {
+    background-color: #333333; /* Article Image Area Background */
+    padding: 10px;
+}
+
+/* Accent Color Styles */
+
+.accent {
+    color: #F3F437; /* Accent Color */
+}
+
+/* Emphasis Color Styles */
+
+.emphasis {
+    color: #1D4D73; /* Emphasis Color */
+}
+
+/* Mobile-specific styles */
+
+@media only screen and (max-width: 768px) {
+    nav {
+        position: relative;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #333333;
+        padding: 10px;
+        width: 100%;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        background-color: #333333;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: #FFFFFF;
+        margin-bottom: 5px;
+    }
+
+    .hamburger span:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Show navigation when hamburger is clicked */
+
+    nav ul.show {
+        display: block;
+    }
+}
+/* End of Mobile-specific styles */

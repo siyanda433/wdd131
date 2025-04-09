@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vintage-football-collection</title>
+  <link rel="stylesheet" href="vintage-football-collection.css" />
+  <link rel="stylesheet" href="vintage-football-collection-large.css" />
+  <script src="vintage-football-collection.js" defer></script>
+  <meta name="description" content="WDD131 - Web Designing and Developments" />
+  <meta name="keywords" content="HTML CSS JavaScript" />
+  <meta name="author" content="Siyanda Mpofu" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="football.png" alt="Vintage Football Collection Logo" />
+      <h1>Vintage Football Collection</h1>
+      <p>Welcome to the Vintage Football Collection! Explore our curated selection of classic football memorabilia.</p>
+    </div>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="vintage-football-collection.html">Home</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="collection.html">Collection</a></li>
+        <li><a href="contact-us.html">Contact</a></li>
+        <li><a href="my-log-in-account.html">My Log in Account</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <fieldset>
+      <legend>Check out the different types of jerseys we have:</legend>
+      <select id="jerseyType" name="jerseyType">
+        <option value="">--Select a type--</option>
+        <option value="Vintage">Vintage</option>
+        <option value="Streetwear">Streetwear</option>
+        <option value="Normal wear">Normal wear</option>
+        <option value="Custom Design">Custom Design</option>
+        <option value="Limited Edition">Limited Edition</option>
+        <option value="Luxury wear">Luxury wear</option>
+        <option value="Match worn">Match worn</option>
+        <option value="Most Favorites">Most Favorites</option>
+      </select>
+    </fieldset>
+
+    <div id="jerseyImages" class="image-grid"></div>
+  </main>
+
+  <footer>
+    <p>&copy;2025 Siyanda Mpofu South Africa</p>
+    <b>getsdates.js.lastModified : </b>
+    <script>document.write(document.lastModified);</script>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage-football-collection</title>
+    <link rel="stylesheet" href="vintage-football-collection.css">
+    <link rel="stylesheet" href="vintage-football-collection-large.css">
+    <script src="vintage-football-collection.js" defer></script>
+    <meta name="description" content="WDD131 - Web Designing and Developments">
+    <meta name="keywords" content="HTML CSS JavaScript">
+    <meta name="author" content="Siyanda Mpofu">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="football.png" alt="Vintage Football Collection Logo">
+            <h1>Vintage Football Collection</h1>
+            <p>Welcome to the Vintage Football Collection! Explore our curated selection of classic football memorabilia.</p>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="vintage-football-collection.html">Home</a></li>
+                <li><a href="about-us.html">About</a></li>
+                <li><a href="collection.html">Collection</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+                <li><a href="my-log-in-account.html">My Log in Account</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>My Log In Account</h1>
+            <p>Welcome to your account! Here you can manage your profile, view your orders, and update your preferences.</p>
+            <form id="loginForm" action="welcome.html" method="post">
+                <fieldset>
+                    <legend>Log In</legend>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+
+                    <input type="submit" value="Log In">
+
+                    <legend>Sign Up</legend>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="newUsername">Create Username:</label>
+                    <input type="text" id="newUsername" name="newUsername" required><br><br>
+
+                    <label for="newPassword">Create Password:</label>
+                    <input type="password" id="newPassword" name="newPassword" required><br><br>
+
+                    <input type="submit" value="Sign Up">
+                </fieldset>
+            </form>
+        
+            <p>Forgot your password? <a href="reset-password.html">Reset Password</a></p>
+        </main>
+    </header>
+    <footer>
+        <p>&copy;2025 Siyanda Mpofu South Africa</p>
+        <b>getsdates.js.lastModified : </b>
+        <script>document.write(document.lastModified);</script>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
